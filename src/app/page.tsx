@@ -1,11 +1,11 @@
-import Image from "next/image";
+import Footer from "@/components/Footer";
+import Background from "@/components/background";
 
 export default function Home() {
   return (
     <main>
-      <section>
-        <div>Hello World</div>
-      </section>
+      <Background />
+      <Footer />
     </main>
   );
 }

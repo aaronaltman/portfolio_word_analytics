@@ -3,8 +3,8 @@ import MainCard from "./MainCard";
 
 export default function Background() {
   return (
-    <main className="bg-slate-500 min-h-screen">
-      <section className="bg-slate-200 py-20  max-w-8xl mx-auto ">
+    <main className="bg-slate-700 min-h-screen">
+      <section className="bg-slate-100 py-20  max-w-8xl mx-auto ">
         <h1 className="text-center text-6xl">Word Analytics</h1>
       </section>
       <MainCard />
